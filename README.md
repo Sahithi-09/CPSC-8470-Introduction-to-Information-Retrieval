@@ -12,10 +12,13 @@ Requires Python 3.10 or higher.
 pip install -r requirements.txt
 
 ## Usage
+```
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/config/run_greedy.yaml"
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/config/run_optimal.yaml"
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/config/run.yaml"
 python "/IR A2C/jcrec/pipeline.py" --config "/IR A2C/jcrec/compareresults.py"
+```
+
 
 ## Configuration File (run.yaml)
 ```yaml
