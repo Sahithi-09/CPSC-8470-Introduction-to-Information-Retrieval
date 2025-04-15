@@ -1,0 +1,18 @@
+taxonomy_path: /home/jrajend/IR A2C/data/taxonomy.csv
+course_path: /home/jrajend/IR A2C/data/courses.json
+cv_path: /home/jrajend/IR A2C/data/resumes.json
+job_path: /home/jrajend/IR A2C/data/jobs.json
+mastery_levels_path: /home/jrajend/IR A2C/data/mastery_levels.json
+results_path: /home/jrajend/IR A2C/results
+level_3: true
+nb_courses: 100
+nb_cvs: -1
+max_cv_skills: 15
+nb_jobs: 100
+threshold: 0.8
+k: 2
+model: a2c  # ✅ Changed from 'ppo' to 'a2c'
+total_steps: 10000
+eval_freq: 1000
+nb_runs: 2
+seed: 42
